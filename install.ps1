@@ -1,0 +1,1 @@
+Copy-Item .\g ( $env:PSModulePath -Split ';')[0] -Recurse -Force
